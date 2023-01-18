@@ -1,3 +1,1 @@
 
-htop
-visual studio code
