@@ -128,3 +128,50 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ------------------------------------------------
+#   for rust
+
+# Rust related files
+/target/
+**/target/
+Cargo.lock
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+
+# Build artifacts
+*.rs.bk
+*.rlib
+*.so
+*.rlib
+*.dylib
+*.exe
+*.dll
+*.pdb
+
+# Generated documentation
+/target/doc/
+
+# Ignore hidden files
+.*
+
+# Environment file
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
